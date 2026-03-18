@@ -1,5 +1,12 @@
+import "./App.css";
+import SpanzuratoareJoc from "./components/SpanzuratoareJoc";
+
 function App() {
-    return <></>;
+    return (
+        <div className="container">
+            <SpanzuratoareJoc />
+        </div>
+    );
 }
 
 export default App;
